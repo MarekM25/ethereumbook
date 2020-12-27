@@ -17,14 +17,13 @@ As a result of Ethereum's clear formal specification, there are a number of inde
 
 Among these Ethereum-based networks are Ethereum, Ethereum Classic, Ella, Expanse, Ubiq, Musicoin, and many others. While mostly compatible at the protocol level, these networks often have features or attributes that require maintainers of Ethereum client software to make small changes in order to support each network. Because of this, not every version of Ethereum client software runs every Ethereum-based blockchain.
 
-Currently, there are six main implementations of the Ethereum protocol, written in six different languages:
+Currently, there are five main implementations of the Ethereum protocol, written in different languages:
 
 * Parity, written in Rust
 * Geth, written in Go
-* +cpp-ethereum+, written in Cpass:[++]
-* +pyethereum+, written in Python
-* Mantis, written in Scala
-* Harmony, written in Java
+* Nethermind, written in C#
+* OpenEthereum, written in Rust
+* Besu, written in Java
 
 In this section, we will look at the two most common clients, Parity and Geth. We'll show how to set up a node using each client, and explore some of their command-line options and application programming interfaces (APIs).
 
